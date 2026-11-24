@@ -1,0 +1,41 @@
+name: komikku_app
+description: "Aplikasi KomikKu - Pembaca Komik dengan Asisten AI, Reminder Rilis, dan Toko Buku Terdekat"
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # HTTP & API
+  http: ^1.2.2
+  cached_network_image: ^3.4.1
+
+  # Backend & Auth
+  supabase_flutter: ^2.8.0
+
+  # Local Storage
+  sqflite: ^2.4.1
+  path: ^1.9.0
+  shared_preferences: ^2.3.3
+
+  # Hardware & Services
+  local_auth: ^2.3.0
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+  geolocator: ^13.0.2
+  url_launcher: ^6.3.1
+  connectivity_plus: ^6.1.0
+
+  # Utilities
+  intl: ^0.20.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
